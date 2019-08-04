@@ -12,5 +12,9 @@ function destructivelyAppendKitten(name) {
 // console.log(kittens)
 
 function destructivelyPrependKitten(name) {
-  kittens.
+  kittens.unshift(name)
+  return kittens
 }
+
+destructivelyPrependKitten(kitty)
+console.log(kittens)
