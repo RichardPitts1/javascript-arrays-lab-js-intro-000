@@ -18,3 +18,8 @@ function destructivelyPrependKitten(name) {
 
 // destructivelyPrependKitten(kitty)
 // console.log(kittens)
+
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name)
+  return kittens
+}
