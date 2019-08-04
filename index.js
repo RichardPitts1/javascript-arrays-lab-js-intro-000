@@ -19,7 +19,7 @@ function destructivelyPrependKitten(name) {
 // destructivelyPrependKitten(kitty)
 // console.log(kittens)
 
-function destructivelyPrependKitten(name) {
-  kittens.unshift(name)
+function destructivelyRemoveLastKitten() {
+  kittens.slice(1);
   return kittens
 }
