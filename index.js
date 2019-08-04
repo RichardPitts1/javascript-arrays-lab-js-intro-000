@@ -16,5 +16,5 @@ function destructivelyPrependKitten(name) {
   return kittens
 }
 
-destructivelyPrependKitten(kitty)
-console.log(kittens)
+// destructivelyPrependKitten(kitty)
+// console.log(kittens)
